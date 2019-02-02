@@ -1,0 +1,40 @@
+{
+  "name": "phonenumbergenerator",
+  "version": "1.0.0",
+  "description": "PhoneNumberGenerator generates random phone numbers for a telecommunications company",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon --exec babel-node src/server/index.js",
+    "start": "node dist/server.js",
+    "build": "babel src -d dist -s",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "verse": " babel --version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felglitzzz/PhoneNumberGenerator.git"
+  },
+  "author": "Felix Amande",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Felglitzzz/PhoneNumberGenerator/issues"
+  },
+  "homepage": "https://github.com/Felglitzzz/PhoneNumberGenerator#readme",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-core": "^6.26.3",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "nodemon": "^1.18.9",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.1"
+  }
+}
