@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+.table-container {
+  margin: 0 auto;
+  width: 600px;
+  height: 680px;
+  overflow-y: scroll;
+}
+
+.button {
+  display: block;
+  margin-top: 15rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner-container {
+  padding-top: 20rem;
+}

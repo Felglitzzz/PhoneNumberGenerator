@@ -1,4 +1,4 @@
-import path from 'path';
+import path from "path";
 
 const url = {
   get stagingDatabaseUrl() {
@@ -10,9 +10,8 @@ const url = {
   get fixturesUrl() {
     return path.resolve(__dirname, this.fixturesRelativeUrl);
   },
-  stagingDatabaseRelativeUrl: '../server/database/staging.index.txt',
-  productionDatabaseRelativeUrl: '../server/database/production.index.txt',
-  fixturesDirectoryRelativeUrl: '../../tests/server/fixtures',
-  fixturesRelativeUrl: '../../tests/server/fixtures/index.txt',
+  stagingDatabaseRelativeUrl: "../../server/database/staging.index.txt",
+  productionDatabaseRelativeUrl: "../../server/database/production.index.txt",
+  fixturesRelativeUrl: "../../../tests/server/fixtures/index.txt"
 };
 export default url;
